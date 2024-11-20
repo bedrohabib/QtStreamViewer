@@ -1,0 +1,5 @@
+/home/badr-eddine/StreamAPP2/out/build/stream/CMakeFiles/stream.dir
+/home/badr-eddine/StreamAPP2/out/build/stream/CMakeFiles/edit_cache.dir
+/home/badr-eddine/StreamAPP2/out/build/stream/CMakeFiles/rebuild_cache.dir
+/home/badr-eddine/StreamAPP2/out/build/stream/CMakeFiles/stream_autogen_timestamp_deps.dir
+/home/badr-eddine/StreamAPP2/out/build/stream/CMakeFiles/stream_autogen.dir

@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "stream",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "stream::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stream-Debug-614f9a867c4ff688c12b.json",
+					"name" : "stream",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stream_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stream_autogen-Debug-905c290e67732b74d39d.json",
+					"name" : "stream_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stream_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stream_autogen_timestamp_deps-Debug-8f557282d4e5ea12ab0a.json",
+					"name" : "stream_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/badr-eddine/StreamAPP2/out/build/stream",
+		"source" : "/home/badr-eddine/StreamAPP2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
