@@ -1,8 +1,0 @@
-/home/badr-eddine/StreamAPP2/out/build/Qt streamer/CMakeFiles/QTserver.dir
-/home/badr-eddine/StreamAPP2/out/build/Qt streamer/CMakeFiles/client.dir
-/home/badr-eddine/StreamAPP2/out/build/Qt streamer/CMakeFiles/edit_cache.dir
-/home/badr-eddine/StreamAPP2/out/build/Qt streamer/CMakeFiles/rebuild_cache.dir
-/home/badr-eddine/StreamAPP2/out/build/Qt streamer/CMakeFiles/QTserver_autogen_timestamp_deps.dir
-/home/badr-eddine/StreamAPP2/out/build/Qt streamer/CMakeFiles/QTserver_autogen.dir
-/home/badr-eddine/StreamAPP2/out/build/Qt streamer/CMakeFiles/client_autogen_timestamp_deps.dir
-/home/badr-eddine/StreamAPP2/out/build/Qt streamer/CMakeFiles/client_autogen.dir
