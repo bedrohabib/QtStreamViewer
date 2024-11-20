@@ -88,21 +88,7 @@
 	"CMAKE_SOURCE_DIR" : "/home/badr-eddine/StreamAPP2",
 	"DEP_FILE" : "/home/badr-eddine/StreamAPP2/out/build/Qt streamer/client_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "client_autogen/timestamp",
-	"HEADERS" : 
-	[
-		[
-			"/home/badr-eddine/StreamAPP2/Decoder.h",
-			"Mu",
-			"EWIEGA46WW/moc_Decoder.cpp",
-			null
-		],
-		[
-			"/home/badr-eddine/StreamAPP2/Encoder.h",
-			"Mu",
-			"EWIEGA46WW/moc_Encoder.cpp",
-			null
-		]
-	],
+	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/badr-eddine/StreamAPP2/out/build/Qt streamer/client_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/badr-eddine/StreamAPP2/out/build/Qt streamer/client_autogen/mocs_compilation.cpp",
@@ -140,9 +126,9 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/badr-eddine/StreamAPP2/DecodingWorker.h",
-		"/home/badr-eddine/StreamAPP2/ReceptionWorker.h",
-		"/home/badr-eddine/StreamAPP2/RenderingWorker.h"
+		"/home/badr-eddine/StreamAPP2/server/DecodingWorker.h",
+		"/home/badr-eddine/StreamAPP2/server/ReceptionWorker.h",
+		"/home/badr-eddine/StreamAPP2/server/RenderingWorker.h"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 6,
@@ -154,9 +140,7 @@
 	"SETTINGS_FILE" : "/home/badr-eddine/StreamAPP2/out/build/Qt streamer/CMakeFiles/client_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/badr-eddine/StreamAPP2/Decoder.cpp", "Mu", null ],
-		[ "/home/badr-eddine/StreamAPP2/Encoder.cpp", "Mu", null ],
-		[ "/home/badr-eddine/StreamAPP2/client.cpp", "Mu", null ]
+		[ "/home/badr-eddine/StreamAPP2/client/client.cpp", "Mu", null ]
 	],
 	"VERBOSITY" : 0
 }

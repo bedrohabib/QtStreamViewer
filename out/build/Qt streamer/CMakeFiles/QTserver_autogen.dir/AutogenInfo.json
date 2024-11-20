@@ -142,9 +142,9 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/badr-eddine/StreamAPP2/DecodingWorker.h",
-		"/home/badr-eddine/StreamAPP2/ReceptionWorker.h",
-		"/home/badr-eddine/StreamAPP2/RenderingWorker.h"
+		"/home/badr-eddine/StreamAPP2/server/DecodingWorker.h",
+		"/home/badr-eddine/StreamAPP2/server/ReceptionWorker.h",
+		"/home/badr-eddine/StreamAPP2/server/RenderingWorker.h"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 6,
@@ -156,7 +156,7 @@
 	"SETTINGS_FILE" : "/home/badr-eddine/StreamAPP2/out/build/Qt streamer/CMakeFiles/QTserver_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/badr-eddine/StreamAPP2/server.cpp", "Mu", null ]
+		[ "/home/badr-eddine/StreamAPP2/server/server.cpp", "Mu", null ]
 	],
 	"VERBOSITY" : 0
 }

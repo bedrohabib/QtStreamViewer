@@ -1,7 +1,7 @@
 #include "Decoder.h"
 #include "Encoder.h"
 #include <iostream>
-#include <unistd.h> // For close()
+#include <unistd.h> 
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
@@ -12,17 +12,15 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    const char* server_ip = argv[2];     // Server IP address
-    int server_port = std::stoi(argv[3]); // Server port number
+    const char* server_ip = argv[2];     
+    int server_port = std::stoi(argv[3]); 
 
-    // Create a TCP socket
     int sockfd = socket(AF_INET, SOCK_STREAM, 0);
     if (sockfd < 0) {
         std::cerr << "Error creating socket" << std::endl;
         return 1;
     }
 
-    // Setup server address structure
     struct sockaddr_in server_addr;
     server_addr.sin_family = AF_INET;
     server_addr.sin_port = htons(server_port);
@@ -31,7 +29,6 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    // Connect to the server
     if (connect(sockfd, (struct sockaddr*)&server_addr, sizeof(server_addr)) < 0) {
         std::cerr << "Connection to server failed" << std::endl;
         close(sockfd);
@@ -40,7 +37,6 @@ int main(int argc, char* argv[]) {
 
     std::cout << "Connected to server at " << server_ip << ":" << server_port << std::endl;
 
-    // Create the Decoder, Encoder, and Processor objects
     Decoder decoder;
     Encoder encoder;
 
@@ -49,8 +45,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    // Initialize encoder with socket_fd for video transmission
-    if (!encoder.initialize("dump.mp4",decoder.getWidth(), decoder.getHeight(), sockfd)) {
+    if (!encoder.initialize(decoder.getWidth(), decoder.getHeight(), sockfd)) {
         close(sockfd);
         return 1;
     }
@@ -67,13 +62,8 @@ int main(int argc, char* argv[]) {
 
     while (decoder.readFrame(input_frame)) {
             encoder.writeFrame(input_frame);  
-    
-    
-    std::cout<<"everyframe is written"<<std::endl;
-    }
+        }
     av_frame_free(&input_frame);
-
-    // Close the socket after processing is done
     close(sockfd);
 
     return 0;

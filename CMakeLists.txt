@@ -19,9 +19,9 @@ include_directories(${FFMPEG_INCLUDE_DIRS})
 
 # Common headers for both executables
 set(HEADERS
-    ReceptionWorker.h
-    DecodingWorker.h
-    RenderingWorker.h
+    server/ReceptionWorker.h
+    server/DecodingWorker.h
+    server/RenderingWorker.h
 )
 
 # Wrap Qt headers with moc
@@ -32,7 +32,7 @@ qt5_wrap_cpp(MOC_SOURCES ${HEADERS})
 # ==============================
 
 # Specify the source files for the first executable
-set(STREAM_SOURCES server.cpp)
+set(STREAM_SOURCES server/server.cpp)
 
 # Add the executable for server
 add_executable(QTserver ${STREAM_SOURCES} ${MOC_SOURCES})
@@ -48,7 +48,7 @@ target_link_libraries(QTserver ${FFMPEG_LIBRARIES})
 # ================================
 
 # Specify the source files for the second executable
-set(VIDEO_PROCESSING_SOURCES client.cpp Encoder.cpp Decoder.cpp)
+set(VIDEO_PROCESSING_SOURCES client/client.cpp )
 
 # Add the executable for the client
 add_executable(client ${VIDEO_PROCESSING_SOURCES})

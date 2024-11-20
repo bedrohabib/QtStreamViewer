@@ -49,7 +49,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "QTserver::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-QTserver-Debug-8497ca27e298ca5caa0b.json",
+					"jsonFile" : "target-QTserver-Debug-ceb3f9a3f253ad956b12.json",
 					"name" : "QTserver",
 					"projectIndex" : 0
 				},
@@ -70,7 +70,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "client::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-client-Debug-c3ddeeaa15300a81109c.json",
+					"jsonFile" : "target-client-Debug-2deaaebdff033db1708b.json",
 					"name" : "client",
 					"projectIndex" : 0
 				},

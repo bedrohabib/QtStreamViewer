@@ -47,7 +47,7 @@ cmake_ninja_workdir = /home/badr-eddine/StreamAPP2/out/build/Qt$ streamer/
 #############################################
 # Order-only phony target for QTserver
 
-build cmake_object_order_depends_target_QTserver: phony || QTserver_autogen QTserver_autogen/mocs_compilation.cpp QTserver_autogen/timestamp QTserver_autogen_timestamp_deps moc_DecodingWorker.cpp moc_ReceptionWorker.cpp moc_RenderingWorker.cpp
+build cmake_object_order_depends_target_QTserver: phony || QTserver_autogen QTserver_autogen/mocs_compilation.cpp QTserver_autogen/timestamp QTserver_autogen_timestamp_deps server/moc_DecodingWorker.cpp server/moc_ReceptionWorker.cpp server/moc_RenderingWorker.cpp
 
 build CMakeFiles/QTserver.dir/QTserver_autogen/mocs_compilation.cpp.o: CXX_COMPILER__QTserver_unscanned_Debug /home/badr-eddine/StreamAPP2/out/build/Qt$ streamer/QTserver_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_QTserver
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIAWIDGETS_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
@@ -57,37 +57,37 @@ build CMakeFiles/QTserver.dir/QTserver_autogen/mocs_compilation.cpp.o: CXX_COMPI
   OBJECT_DIR = CMakeFiles/QTserver.dir
   OBJECT_FILE_DIR = CMakeFiles/QTserver.dir/QTserver_autogen
 
-build CMakeFiles/QTserver.dir/server.cpp.o: CXX_COMPILER__QTserver_unscanned_Debug /home/badr-eddine/StreamAPP2/server.cpp || cmake_object_order_depends_target_QTserver
+build CMakeFiles/QTserver.dir/server/server.cpp.o: CXX_COMPILER__QTserver_unscanned_Debug /home/badr-eddine/StreamAPP2/server/server.cpp || cmake_object_order_depends_target_QTserver
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIAWIDGETS_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/QTserver.dir/server.cpp.o.d
+  DEP_FILE = CMakeFiles/QTserver.dir/server/server.cpp.o.d
   FLAGS = -g -std=gnu++14 -fPIC
   INCLUDES = -I"/home/badr-eddine/StreamAPP2/out/build/Qt streamer/QTserver_autogen/include" -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets
   OBJECT_DIR = CMakeFiles/QTserver.dir
-  OBJECT_FILE_DIR = CMakeFiles/QTserver.dir
+  OBJECT_FILE_DIR = CMakeFiles/QTserver.dir/server
 
-build CMakeFiles/QTserver.dir/moc_ReceptionWorker.cpp.o: CXX_COMPILER__QTserver_unscanned_Debug /home/badr-eddine/StreamAPP2/out/build/Qt$ streamer/moc_ReceptionWorker.cpp || cmake_object_order_depends_target_QTserver
+build CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.o: CXX_COMPILER__QTserver_unscanned_Debug /home/badr-eddine/StreamAPP2/out/build/Qt$ streamer/server/moc_ReceptionWorker.cpp || cmake_object_order_depends_target_QTserver
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIAWIDGETS_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/QTserver.dir/moc_ReceptionWorker.cpp.o.d
+  DEP_FILE = CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.o.d
   FLAGS = -g -std=gnu++14 -fPIC
   INCLUDES = -I"/home/badr-eddine/StreamAPP2/out/build/Qt streamer/QTserver_autogen/include" -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets
   OBJECT_DIR = CMakeFiles/QTserver.dir
-  OBJECT_FILE_DIR = CMakeFiles/QTserver.dir
+  OBJECT_FILE_DIR = CMakeFiles/QTserver.dir/server
 
-build CMakeFiles/QTserver.dir/moc_DecodingWorker.cpp.o: CXX_COMPILER__QTserver_unscanned_Debug /home/badr-eddine/StreamAPP2/out/build/Qt$ streamer/moc_DecodingWorker.cpp || cmake_object_order_depends_target_QTserver
+build CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.o: CXX_COMPILER__QTserver_unscanned_Debug /home/badr-eddine/StreamAPP2/out/build/Qt$ streamer/server/moc_DecodingWorker.cpp || cmake_object_order_depends_target_QTserver
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIAWIDGETS_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/QTserver.dir/moc_DecodingWorker.cpp.o.d
+  DEP_FILE = CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.o.d
   FLAGS = -g -std=gnu++14 -fPIC
   INCLUDES = -I"/home/badr-eddine/StreamAPP2/out/build/Qt streamer/QTserver_autogen/include" -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets
   OBJECT_DIR = CMakeFiles/QTserver.dir
-  OBJECT_FILE_DIR = CMakeFiles/QTserver.dir
+  OBJECT_FILE_DIR = CMakeFiles/QTserver.dir/server
 
-build CMakeFiles/QTserver.dir/moc_RenderingWorker.cpp.o: CXX_COMPILER__QTserver_unscanned_Debug /home/badr-eddine/StreamAPP2/out/build/Qt$ streamer/moc_RenderingWorker.cpp || cmake_object_order_depends_target_QTserver
+build CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.o: CXX_COMPILER__QTserver_unscanned_Debug /home/badr-eddine/StreamAPP2/out/build/Qt$ streamer/server/moc_RenderingWorker.cpp || cmake_object_order_depends_target_QTserver
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIAWIDGETS_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/QTserver.dir/moc_RenderingWorker.cpp.o.d
+  DEP_FILE = CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.o.d
   FLAGS = -g -std=gnu++14 -fPIC
   INCLUDES = -I"/home/badr-eddine/StreamAPP2/out/build/Qt streamer/QTserver_autogen/include" -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets
   OBJECT_DIR = CMakeFiles/QTserver.dir
-  OBJECT_FILE_DIR = CMakeFiles/QTserver.dir
+  OBJECT_FILE_DIR = CMakeFiles/QTserver.dir/server
 
 
 # =============================================================================
@@ -97,7 +97,7 @@ build CMakeFiles/QTserver.dir/moc_RenderingWorker.cpp.o: CXX_COMPILER__QTserver_
 #############################################
 # Link the executable QTserver
 
-build QTserver: CXX_EXECUTABLE_LINKER__QTserver_Debug CMakeFiles/QTserver.dir/QTserver_autogen/mocs_compilation.cpp.o CMakeFiles/QTserver.dir/server.cpp.o CMakeFiles/QTserver.dir/moc_ReceptionWorker.cpp.o CMakeFiles/QTserver.dir/moc_DecodingWorker.cpp.o CMakeFiles/QTserver.dir/moc_RenderingWorker.cpp.o | /usr/lib/x86_64-linux-gnu/libQt5MultimediaWidgets.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Multimedia.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 || QTserver_autogen QTserver_autogen_timestamp_deps
+build QTserver: CXX_EXECUTABLE_LINKER__QTserver_Debug CMakeFiles/QTserver.dir/QTserver_autogen/mocs_compilation.cpp.o CMakeFiles/QTserver.dir/server/server.cpp.o CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.o CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.o CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.o | /usr/lib/x86_64-linux-gnu/libQt5MultimediaWidgets.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Multimedia.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 || QTserver_autogen QTserver_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libQt5MultimediaWidgets.so.5.15.13  -lavcodec  -lavformat  -lavutil  -lswscale  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13  /usr/lib/x86_64-linux-gnu/libQt5Multimedia.so.5.15.13  /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13  /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.13  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
   OBJECT_DIR = CMakeFiles/QTserver.dir
@@ -122,26 +122,12 @@ build CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles/client.dir
   OBJECT_FILE_DIR = CMakeFiles/client.dir/client_autogen
 
-build CMakeFiles/client.dir/client.cpp.o: CXX_COMPILER__client_unscanned_Debug /home/badr-eddine/StreamAPP2/client.cpp || cmake_object_order_depends_target_client
-  DEP_FILE = CMakeFiles/client.dir/client.cpp.o.d
+build CMakeFiles/client.dir/client/client.cpp.o: CXX_COMPILER__client_unscanned_Debug /home/badr-eddine/StreamAPP2/client/client.cpp || cmake_object_order_depends_target_client
+  DEP_FILE = CMakeFiles/client.dir/client/client.cpp.o.d
   FLAGS = -g -std=gnu++14
   INCLUDES = -I"/home/badr-eddine/StreamAPP2/out/build/Qt streamer/client_autogen/include"
   OBJECT_DIR = CMakeFiles/client.dir
-  OBJECT_FILE_DIR = CMakeFiles/client.dir
-
-build CMakeFiles/client.dir/Encoder.cpp.o: CXX_COMPILER__client_unscanned_Debug /home/badr-eddine/StreamAPP2/Encoder.cpp || cmake_object_order_depends_target_client
-  DEP_FILE = CMakeFiles/client.dir/Encoder.cpp.o.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -I"/home/badr-eddine/StreamAPP2/out/build/Qt streamer/client_autogen/include"
-  OBJECT_DIR = CMakeFiles/client.dir
-  OBJECT_FILE_DIR = CMakeFiles/client.dir
-
-build CMakeFiles/client.dir/Decoder.cpp.o: CXX_COMPILER__client_unscanned_Debug /home/badr-eddine/StreamAPP2/Decoder.cpp || cmake_object_order_depends_target_client
-  DEP_FILE = CMakeFiles/client.dir/Decoder.cpp.o.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -I"/home/badr-eddine/StreamAPP2/out/build/Qt streamer/client_autogen/include"
-  OBJECT_DIR = CMakeFiles/client.dir
-  OBJECT_FILE_DIR = CMakeFiles/client.dir
+  OBJECT_FILE_DIR = CMakeFiles/client.dir/client
 
 
 # =============================================================================
@@ -151,7 +137,7 @@ build CMakeFiles/client.dir/Decoder.cpp.o: CXX_COMPILER__client_unscanned_Debug 
 #############################################
 # Link the executable client
 
-build client: CXX_EXECUTABLE_LINKER__client_Debug CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o CMakeFiles/client.dir/client.cpp.o CMakeFiles/client.dir/Encoder.cpp.o CMakeFiles/client.dir/Decoder.cpp.o || client_autogen client_autogen_timestamp_deps
+build client: CXX_EXECUTABLE_LINKER__client_Debug CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o CMakeFiles/client.dir/client/client.cpp.o || client_autogen client_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = -lavcodec  -lavformat  -lavutil  -lswscale
   OBJECT_DIR = CMakeFiles/client.dir
@@ -209,29 +195,29 @@ build client_autogen: phony CMakeFiles/client_autogen client_autogen/timestamp c
 
 
 #############################################
-# Custom command for moc_ReceptionWorker.cpp
+# Custom command for server/moc_ReceptionWorker.cpp
 
-build moc_ReceptionWorker.cpp | ${cmake_ninja_workdir}moc_ReceptionWorker.cpp: CUSTOM_COMMAND /home/badr-eddine/StreamAPP2/ReceptionWorker.h || QTserver_autogen QTserver_autogen_timestamp_deps
-  COMMAND = cd "/home/badr-eddine/StreamAPP2/out/build/Qt streamer" && /usr/lib/qt5/bin/moc "@/home/badr-eddine/StreamAPP2/out/build/Qt streamer/moc_ReceptionWorker.cpp_parameters"
-  DESC = Generating moc_ReceptionWorker.cpp
+build server/moc_ReceptionWorker.cpp | ${cmake_ninja_workdir}server/moc_ReceptionWorker.cpp: CUSTOM_COMMAND /home/badr-eddine/StreamAPP2/server/ReceptionWorker.h || QTserver_autogen QTserver_autogen_timestamp_deps
+  COMMAND = cd "/home/badr-eddine/StreamAPP2/out/build/Qt streamer/server" && /usr/lib/qt5/bin/moc "@/home/badr-eddine/StreamAPP2/out/build/Qt streamer/server/moc_ReceptionWorker.cpp_parameters"
+  DESC = Generating server/moc_ReceptionWorker.cpp
   restat = 1
 
 
 #############################################
-# Custom command for moc_DecodingWorker.cpp
+# Custom command for server/moc_DecodingWorker.cpp
 
-build moc_DecodingWorker.cpp | ${cmake_ninja_workdir}moc_DecodingWorker.cpp: CUSTOM_COMMAND /home/badr-eddine/StreamAPP2/DecodingWorker.h || QTserver_autogen QTserver_autogen_timestamp_deps
-  COMMAND = cd "/home/badr-eddine/StreamAPP2/out/build/Qt streamer" && /usr/lib/qt5/bin/moc "@/home/badr-eddine/StreamAPP2/out/build/Qt streamer/moc_DecodingWorker.cpp_parameters"
-  DESC = Generating moc_DecodingWorker.cpp
+build server/moc_DecodingWorker.cpp | ${cmake_ninja_workdir}server/moc_DecodingWorker.cpp: CUSTOM_COMMAND /home/badr-eddine/StreamAPP2/server/DecodingWorker.h || QTserver_autogen QTserver_autogen_timestamp_deps
+  COMMAND = cd "/home/badr-eddine/StreamAPP2/out/build/Qt streamer/server" && /usr/lib/qt5/bin/moc "@/home/badr-eddine/StreamAPP2/out/build/Qt streamer/server/moc_DecodingWorker.cpp_parameters"
+  DESC = Generating server/moc_DecodingWorker.cpp
   restat = 1
 
 
 #############################################
-# Custom command for moc_RenderingWorker.cpp
+# Custom command for server/moc_RenderingWorker.cpp
 
-build moc_RenderingWorker.cpp | ${cmake_ninja_workdir}moc_RenderingWorker.cpp: CUSTOM_COMMAND /home/badr-eddine/StreamAPP2/RenderingWorker.h || QTserver_autogen QTserver_autogen_timestamp_deps
-  COMMAND = cd "/home/badr-eddine/StreamAPP2/out/build/Qt streamer" && /usr/lib/qt5/bin/moc "@/home/badr-eddine/StreamAPP2/out/build/Qt streamer/moc_RenderingWorker.cpp_parameters"
-  DESC = Generating moc_RenderingWorker.cpp
+build server/moc_RenderingWorker.cpp | ${cmake_ninja_workdir}server/moc_RenderingWorker.cpp: CUSTOM_COMMAND /home/badr-eddine/StreamAPP2/server/RenderingWorker.h || QTserver_autogen QTserver_autogen_timestamp_deps
+  COMMAND = cd "/home/badr-eddine/StreamAPP2/out/build/Qt streamer/server" && /usr/lib/qt5/bin/moc "@/home/badr-eddine/StreamAPP2/out/build/Qt streamer/server/moc_RenderingWorker.cpp_parameters"
+  DESC = Generating server/moc_RenderingWorker.cpp
   restat = 1
 
 
@@ -258,7 +244,7 @@ build client_autogen/timestamp client_autogen/mocs_compilation.cpp | ${cmake_nin
 #############################################
 # Phony custom command for CMakeFiles/QTserver_autogen_timestamp_deps
 
-build CMakeFiles/QTserver_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/QTserver_autogen_timestamp_deps: phony /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 /usr/lib/qt5/bin/moc /usr/lib/x86_64-linux-gnu/libQt5Multimedia.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5MultimediaWidgets.so.5.15.13
+build CMakeFiles/QTserver_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/QTserver_autogen_timestamp_deps: phony /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 /usr/lib/qt5/bin/moc /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Multimedia.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5MultimediaWidgets.so.5.15.13
 
 
 #############################################
