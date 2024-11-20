@@ -1,0 +1,58 @@
+cmake_minimum_required(VERSION 3.5)
+
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+project(StreamAndVideoProcessing VERSION 1.0 LANGUAGES CXX)
+
+# Enable automoc for Qt
+set(CMAKE_AUTOMOC ON)
+
+# Find the Qt5 package with necessary modules
+find_package(Qt5 COMPONENTS Core Gui Widgets Multimedia MultimediaWidgets REQUIRED)
+find_package(Threads REQUIRED)
+
+# Find FFmpeg libraries using pkg-config
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(FFMPEG REQUIRED libavcodec libavformat libavutil libswscale)
+include_directories(${FFMPEG_INCLUDE_DIRS})
+
+# Common headers for both executables
+set(HEADERS
+    ReceptionWorker.h
+    DecodingWorker.h
+    RenderingWorker.h
+)
+
+# Wrap Qt headers with moc
+qt5_wrap_cpp(MOC_SOURCES ${HEADERS})
+
+# ==============================
+# Executable 1: QTserver (QT App)
+# ==============================
+
+# Specify the source files for the first executable
+set(STREAM_SOURCES server.cpp)
+
+# Add the executable for server
+add_executable(QTserver ${STREAM_SOURCES} ${MOC_SOURCES})
+
+# Link the necessary Qt libraries for server
+target_link_libraries(QTserver Qt5::Core Qt5::Gui Qt5::Widgets Qt5::Multimedia Qt5::MultimediaWidgets)
+
+# Link FFmpeg libraries for server
+target_link_libraries(QTserver ${FFMPEG_LIBRARIES})
+
+# ================================
+# Executable 2: client
+# ================================
+
+# Specify the source files for the second executable
+set(VIDEO_PROCESSING_SOURCES client.cpp Encoder.cpp Decoder.cpp)
+
+# Add the executable for the client
+add_executable(client ${VIDEO_PROCESSING_SOURCES})
+
+# Link FFmpeg libraries for VideoProcessingApp
+target_link_libraries(client ${FFMPEG_LIBRARIES})
+
