@@ -1,7 +1,7 @@
-CMakeFiles/client.dir/client.cpp.o: \
- /home/badr-eddine/StreamAPP2/client.cpp /usr/include/stdc-predef.h \
- /home/badr-eddine/StreamAPP2/Decoder.h /usr/include/c++/13/iostream \
- /usr/include/c++/13/bits/requires_hosted.h \
+CMakeFiles/client.dir/client/client.cpp.o: \
+ /home/badr-eddine/StreamAPP2/client/client.cpp \
+ /usr/include/stdc-predef.h /home/badr-eddine/StreamAPP2/client/Decoder.h \
+ /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -218,7 +218,7 @@ CMakeFiles/client.dir/client.cpp.o: \
  /usr/include/x86_64-linux-gnu/libavcodec/version.h \
  /usr/include/x86_64-linux-gnu/libavcodec/codec_desc.h \
  /usr/include/x86_64-linux-gnu/libavcodec/codec_par.h \
- /home/badr-eddine/StreamAPP2/Encoder.h \
+ /home/badr-eddine/StreamAPP2/client/Encoder.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/x86_64-linux-gnu/bits/socket.h \

@@ -1,6 +1,6 @@
-CMakeFiles/client.dir/client.cpp.o: \
- /home/badr-eddine/StreamAPP2/client.cpp /usr/include/stdc-predef.h \
- /home/badr-eddine/StreamAPP2/Decoder.h /usr/include/c++/13/iostream \
+CMakeFiles/QTserver.dir/server/server.cpp.o: \
+ /home/badr-eddine/StreamAPP2/server/server.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -144,12 +144,14 @@ CMakeFiles/client.dir/client.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc \
- /usr/include/x86_64-linux-gnu/libavformat/avformat.h \
- /usr/include/x86_64-linux-gnu/libavcodec/codec_par.h \
+ /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/cstring \
+ /usr/include/string.h /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/avcodec.h \
+ /usr/include/x86_64-linux-gnu/libavutil/samplefmt.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /usr/include/x86_64-linux-gnu/libavutil/attributes.h \
  /usr/include/x86_64-linux-gnu/libavutil/avutil.h \
  /usr/include/x86_64-linux-gnu/libavutil/common.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
@@ -170,8 +172,7 @@ CMakeFiles/client.dir/client.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/13/stdlib.h /usr/include/string.h \
- /usr/include/strings.h \
+ /usr/include/c++/13/stdlib.h \
  /usr/include/x86_64-linux-gnu/libavutil/attributes.h \
  /usr/include/x86_64-linux-gnu/libavutil/error.h \
  /usr/include/x86_64-linux-gnu/libavutil/macros.h \
@@ -183,42 +184,187 @@ CMakeFiles/client.dir/client.cpp.o: \
  /usr/include/x86_64-linux-gnu/libavutil/intfloat.h \
  /usr/include/x86_64-linux-gnu/libavutil/log.h \
  /usr/include/x86_64-linux-gnu/libavutil/pixfmt.h \
- /usr/include/x86_64-linux-gnu/libavutil/channel_layout.h \
- /usr/include/x86_64-linux-gnu/libavutil/rational.h \
- /usr/include/x86_64-linux-gnu/libavutil/pixfmt.h \
- /usr/include/x86_64-linux-gnu/libavcodec/codec_id.h \
- /usr/include/x86_64-linux-gnu/libavutil/samplefmt.h \
- /usr/include/x86_64-linux-gnu/libavcodec/version_major.h \
- /usr/include/x86_64-linux-gnu/libavcodec/defs.h \
- /usr/include/x86_64-linux-gnu/libavcodec/packet.h \
- /usr/include/x86_64-linux-gnu/libavutil/attributes.h \
  /usr/include/x86_64-linux-gnu/libavutil/buffer.h \
+ /usr/include/x86_64-linux-gnu/libavutil/channel_layout.h \
  /usr/include/x86_64-linux-gnu/libavutil/dict.h \
- /usr/include/x86_64-linux-gnu/libavutil/version.h \
- /usr/include/x86_64-linux-gnu/libavcodec/version_major.h \
- /usr/include/x86_64-linux-gnu/libavcodec/defs.h \
- /usr/include/x86_64-linux-gnu/libavcodec/packet.h \
- /usr/include/x86_64-linux-gnu/libavutil/log.h \
- /usr/include/x86_64-linux-gnu/libavformat/avio.h \
- /usr/include/x86_64-linux-gnu/libavformat/version_major.h \
- /usr/include/x86_64-linux-gnu/libavformat/version.h \
- /usr/include/x86_64-linux-gnu/libavformat/version_major.h \
  /usr/include/x86_64-linux-gnu/libavutil/frame.h \
  /usr/include/x86_64-linux-gnu/libavutil/avutil.h \
  /usr/include/x86_64-linux-gnu/libavutil/buffer.h \
  /usr/include/x86_64-linux-gnu/libavutil/channel_layout.h \
  /usr/include/x86_64-linux-gnu/libavutil/dict.h \
  /usr/include/x86_64-linux-gnu/libavutil/samplefmt.h \
+ /usr/include/x86_64-linux-gnu/libavutil/log.h \
+ /usr/include/x86_64-linux-gnu/libavutil/pixfmt.h \
+ /usr/include/x86_64-linux-gnu/libavutil/rational.h \
  /usr/include/x86_64-linux-gnu/libavcodec/codec.h \
  /usr/include/x86_64-linux-gnu/libavutil/hwcontext.h \
  /usr/include/x86_64-linux-gnu/libavutil/frame.h \
  /usr/include/x86_64-linux-gnu/libavcodec/codec_id.h \
- /usr/include/x86_64-linux-gnu/libavcodec/avcodec.h \
- /usr/include/x86_64-linux-gnu/libavcodec/codec.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/version_major.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/version_major.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/codec_id.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/defs.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/packet.h \
+ /usr/include/x86_64-linux-gnu/libavutil/version.h \
  /usr/include/x86_64-linux-gnu/libavcodec/version.h \
  /usr/include/x86_64-linux-gnu/libavcodec/codec_desc.h \
  /usr/include/x86_64-linux-gnu/libavcodec/codec_par.h \
- /home/badr-eddine/StreamAPP2/Encoder.h \
+ /usr/include/x86_64-linux-gnu/libavformat/avformat.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/codec_par.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/defs.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/packet.h \
+ /usr/include/x86_64-linux-gnu/libavformat/avio.h \
+ /usr/include/x86_64-linux-gnu/libavformat/version_major.h \
+ /usr/include/x86_64-linux-gnu/libavformat/version.h \
+ /usr/include/x86_64-linux-gnu/libavformat/version_major.h \
+ /usr/include/x86_64-linux-gnu/libavcodec/codec.h \
+ /usr/include/x86_64-linux-gnu/libavutil/imgutils.h \
+ /usr/include/x86_64-linux-gnu/libavutil/pixdesc.h \
+ /usr/include/x86_64-linux-gnu/libswscale/swscale.h \
+ /usr/include/x86_64-linux-gnu/libswscale/version_major.h \
+ /usr/include/x86_64-linux-gnu/libswscale/version.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QImage \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
+ /usr/include/c++/13/cstddef /usr/include/c++/13/utility \
+ /usr/include/c++/13/bits/stl_relops.h /usr/include/assert.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
+ /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
+ /usr/include/c++/13/bits/algorithmfwd.h \
+ /usr/include/c++/13/bits/stl_heap.h \
+ /usr/include/c++/13/bits/uniform_int_dist.h \
+ /usr/include/c++/13/bits/stl_tempbuf.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
+ /usr/include/c++/13/atomic /usr/include/c++/13/bits/atomic_base.h \
+ /usr/include/c++/13/bits/atomic_lockfree_defines.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+ /usr/include/c++/13/iterator /usr/include/c++/13/bits/stream_iterator.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
+ /usr/include/c++/13/numeric /usr/include/c++/13/bits/stl_numeric.h \
+ /usr/include/c++/13/functional /usr/include/c++/13/tuple \
+ /usr/include/c++/13/bits/uses_allocator.h \
+ /usr/include/c++/13/bits/std_function.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/list \
+ /usr/include/c++/13/bits/stl_list.h \
+ /usr/include/c++/13/bits/allocated_ptr.h \
+ /usr/include/c++/13/ext/aligned_buffer.h \
+ /usr/include/c++/13/bits/list.tcc \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
+ /usr/include/c++/13/map /usr/include/c++/13/bits/stl_tree.h \
+ /usr/include/c++/13/bits/stl_map.h \
+ /usr/include/c++/13/bits/stl_multimap.h \
+ /usr/include/c++/13/bits/erase_if.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
+ /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
+ /usr/include/c++/13/ratio /usr/include/c++/13/cstdint \
+ /usr/include/c++/13/limits /usr/include/c++/13/ctime \
+ /usr/include/c++/13/bits/parse_numbers.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+ /usr/include/c++/13/memory \
+ /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
+ /usr/include/c++/13/bits/shared_ptr.h \
+ /usr/include/c++/13/bits/shared_ptr_base.h \
+ /usr/include/c++/13/ext/concurrence.h \
+ /usr/include/c++/13/bits/shared_ptr_atomic.h \
+ /usr/include/c++/13/backward/auto_ptr.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QTime \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h \
+ /home/badr-eddine/StreamAPP2/server/ReceptionWorker.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/x86_64-linux-gnu/bits/socket.h \
@@ -235,12 +381,25 @@ CMakeFiles/client.dir/client.cpp.o: \
  /usr/include/x86_64-linux-gnu/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
- /usr/include/arpa/inet.h /usr/include/netinet/in.h \
- /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
- /usr/include/x86_64-linux-gnu/bits/environments.h \
- /usr/include/x86_64-linux-gnu/bits/confname.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h
+ /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/bits/in.h \
+ /usr/include/arpa/inet.h \
+ /home/badr-eddine/StreamAPP2/server/DecodingWorker.h \
+ /usr/include/c++/13/thread /usr/include/c++/13/bits/std_thread.h \
+ /usr/include/c++/13/bits/this_thread_sleep.h \
+ /home/badr-eddine/StreamAPP2/server/ThreadSafeQueue.h \
+ /usr/include/c++/13/queue /usr/include/c++/13/deque \
+ /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
+ /usr/include/c++/13/bits/stl_queue.h /usr/include/c++/13/mutex \
+ /usr/include/c++/13/bits/std_mutex.h \
+ /usr/include/c++/13/bits/unique_lock.h \
+ /usr/include/c++/13/condition_variable \
+ /home/badr-eddine/StreamAPP2/server/RenderingWorker.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdeadlinetimer.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qelapsedtimer.h \
+ /usr/include/c++/13/future /usr/include/c++/13/bits/atomic_futex.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QPixmap \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QCoreApplication \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h

@@ -194,54 +194,6 @@ client_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_autogen.dir/build.make CMakeFiles/client_autogen.dir/build
 .PHONY : client_autogen/fast
 
-Decoder.o: Decoder.cpp.o
-.PHONY : Decoder.o
-
-# target to build an object file
-Decoder.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Decoder.cpp.o
-.PHONY : Decoder.cpp.o
-
-Decoder.i: Decoder.cpp.i
-.PHONY : Decoder.i
-
-# target to preprocess a source file
-Decoder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Decoder.cpp.i
-.PHONY : Decoder.cpp.i
-
-Decoder.s: Decoder.cpp.s
-.PHONY : Decoder.s
-
-# target to generate assembly for a file
-Decoder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Decoder.cpp.s
-.PHONY : Decoder.cpp.s
-
-Encoder.o: Encoder.cpp.o
-.PHONY : Encoder.o
-
-# target to build an object file
-Encoder.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Encoder.cpp.o
-.PHONY : Encoder.cpp.o
-
-Encoder.i: Encoder.cpp.i
-.PHONY : Encoder.i
-
-# target to preprocess a source file
-Encoder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Encoder.cpp.i
-.PHONY : Encoder.cpp.i
-
-Encoder.s: Encoder.cpp.s
-.PHONY : Encoder.s
-
-# target to generate assembly for a file
-Encoder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Encoder.cpp.s
-.PHONY : Encoder.cpp.s
-
 QTserver_autogen/mocs_compilation.o: QTserver_autogen/mocs_compilation.cpp.o
 .PHONY : QTserver_autogen/mocs_compilation.o
 
@@ -266,29 +218,29 @@ QTserver_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/QTserver_autogen/mocs_compilation.cpp.s
 .PHONY : QTserver_autogen/mocs_compilation.cpp.s
 
-client.o: client.cpp.o
-.PHONY : client.o
+client/client.o: client/client.cpp.o
+.PHONY : client/client.o
 
 # target to build an object file
-client.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client.cpp.o
-.PHONY : client.cpp.o
+client/client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/client.cpp.o
+.PHONY : client/client.cpp.o
 
-client.i: client.cpp.i
-.PHONY : client.i
+client/client.i: client/client.cpp.i
+.PHONY : client/client.i
 
 # target to preprocess a source file
-client.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client.cpp.i
-.PHONY : client.cpp.i
+client/client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/client.cpp.i
+.PHONY : client/client.cpp.i
 
-client.s: client.cpp.s
-.PHONY : client.s
+client/client.s: client/client.cpp.s
+.PHONY : client/client.s
 
 # target to generate assembly for a file
-client.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client.cpp.s
-.PHONY : client.cpp.s
+client/client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/client.cpp.s
+.PHONY : client/client.cpp.s
 
 client_autogen/mocs_compilation.o: client_autogen/mocs_compilation.cpp.o
 .PHONY : client_autogen/mocs_compilation.o
@@ -314,101 +266,101 @@ client_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.s
 .PHONY : client_autogen/mocs_compilation.cpp.s
 
-moc_DecodingWorker.o: moc_DecodingWorker.cpp.o
-.PHONY : moc_DecodingWorker.o
+server/moc_DecodingWorker.o: server/moc_DecodingWorker.cpp.o
+.PHONY : server/moc_DecodingWorker.o
 
 # target to build an object file
-moc_DecodingWorker.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/moc_DecodingWorker.cpp.o
-.PHONY : moc_DecodingWorker.cpp.o
+server/moc_DecodingWorker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.o
+.PHONY : server/moc_DecodingWorker.cpp.o
 
-moc_DecodingWorker.i: moc_DecodingWorker.cpp.i
-.PHONY : moc_DecodingWorker.i
+server/moc_DecodingWorker.i: server/moc_DecodingWorker.cpp.i
+.PHONY : server/moc_DecodingWorker.i
 
 # target to preprocess a source file
-moc_DecodingWorker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/moc_DecodingWorker.cpp.i
-.PHONY : moc_DecodingWorker.cpp.i
+server/moc_DecodingWorker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.i
+.PHONY : server/moc_DecodingWorker.cpp.i
 
-moc_DecodingWorker.s: moc_DecodingWorker.cpp.s
-.PHONY : moc_DecodingWorker.s
+server/moc_DecodingWorker.s: server/moc_DecodingWorker.cpp.s
+.PHONY : server/moc_DecodingWorker.s
 
 # target to generate assembly for a file
-moc_DecodingWorker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/moc_DecodingWorker.cpp.s
-.PHONY : moc_DecodingWorker.cpp.s
+server/moc_DecodingWorker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.s
+.PHONY : server/moc_DecodingWorker.cpp.s
 
-moc_ReceptionWorker.o: moc_ReceptionWorker.cpp.o
-.PHONY : moc_ReceptionWorker.o
+server/moc_ReceptionWorker.o: server/moc_ReceptionWorker.cpp.o
+.PHONY : server/moc_ReceptionWorker.o
 
 # target to build an object file
-moc_ReceptionWorker.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/moc_ReceptionWorker.cpp.o
-.PHONY : moc_ReceptionWorker.cpp.o
+server/moc_ReceptionWorker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.o
+.PHONY : server/moc_ReceptionWorker.cpp.o
 
-moc_ReceptionWorker.i: moc_ReceptionWorker.cpp.i
-.PHONY : moc_ReceptionWorker.i
+server/moc_ReceptionWorker.i: server/moc_ReceptionWorker.cpp.i
+.PHONY : server/moc_ReceptionWorker.i
 
 # target to preprocess a source file
-moc_ReceptionWorker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/moc_ReceptionWorker.cpp.i
-.PHONY : moc_ReceptionWorker.cpp.i
+server/moc_ReceptionWorker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.i
+.PHONY : server/moc_ReceptionWorker.cpp.i
 
-moc_ReceptionWorker.s: moc_ReceptionWorker.cpp.s
-.PHONY : moc_ReceptionWorker.s
+server/moc_ReceptionWorker.s: server/moc_ReceptionWorker.cpp.s
+.PHONY : server/moc_ReceptionWorker.s
 
 # target to generate assembly for a file
-moc_ReceptionWorker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/moc_ReceptionWorker.cpp.s
-.PHONY : moc_ReceptionWorker.cpp.s
+server/moc_ReceptionWorker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.s
+.PHONY : server/moc_ReceptionWorker.cpp.s
 
-moc_RenderingWorker.o: moc_RenderingWorker.cpp.o
-.PHONY : moc_RenderingWorker.o
+server/moc_RenderingWorker.o: server/moc_RenderingWorker.cpp.o
+.PHONY : server/moc_RenderingWorker.o
 
 # target to build an object file
-moc_RenderingWorker.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/moc_RenderingWorker.cpp.o
-.PHONY : moc_RenderingWorker.cpp.o
+server/moc_RenderingWorker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.o
+.PHONY : server/moc_RenderingWorker.cpp.o
 
-moc_RenderingWorker.i: moc_RenderingWorker.cpp.i
-.PHONY : moc_RenderingWorker.i
+server/moc_RenderingWorker.i: server/moc_RenderingWorker.cpp.i
+.PHONY : server/moc_RenderingWorker.i
 
 # target to preprocess a source file
-moc_RenderingWorker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/moc_RenderingWorker.cpp.i
-.PHONY : moc_RenderingWorker.cpp.i
+server/moc_RenderingWorker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.i
+.PHONY : server/moc_RenderingWorker.cpp.i
 
-moc_RenderingWorker.s: moc_RenderingWorker.cpp.s
-.PHONY : moc_RenderingWorker.s
+server/moc_RenderingWorker.s: server/moc_RenderingWorker.cpp.s
+.PHONY : server/moc_RenderingWorker.s
 
 # target to generate assembly for a file
-moc_RenderingWorker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/moc_RenderingWorker.cpp.s
-.PHONY : moc_RenderingWorker.cpp.s
+server/moc_RenderingWorker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.s
+.PHONY : server/moc_RenderingWorker.cpp.s
 
-server.o: server.cpp.o
-.PHONY : server.o
+server/server.o: server/server.cpp.o
+.PHONY : server/server.o
 
 # target to build an object file
-server.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server.cpp.o
-.PHONY : server.cpp.o
+server/server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server/server.cpp.o
+.PHONY : server/server.cpp.o
 
-server.i: server.cpp.i
-.PHONY : server.i
+server/server.i: server/server.cpp.i
+.PHONY : server/server.i
 
 # target to preprocess a source file
-server.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server.cpp.i
-.PHONY : server.cpp.i
+server/server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server/server.cpp.i
+.PHONY : server/server.cpp.i
 
-server.s: server.cpp.s
-.PHONY : server.s
+server/server.s: server/server.cpp.s
+.PHONY : server/server.s
 
 # target to generate assembly for a file
-server.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server.cpp.s
-.PHONY : server.cpp.s
+server/server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server/server.cpp.s
+.PHONY : server/server.cpp.s
 
 # Help Target
 help:
@@ -424,33 +376,27 @@ help:
 	@echo "... client_autogen_timestamp_deps"
 	@echo "... QTserver"
 	@echo "... client"
-	@echo "... Decoder.o"
-	@echo "... Decoder.i"
-	@echo "... Decoder.s"
-	@echo "... Encoder.o"
-	@echo "... Encoder.i"
-	@echo "... Encoder.s"
 	@echo "... QTserver_autogen/mocs_compilation.o"
 	@echo "... QTserver_autogen/mocs_compilation.i"
 	@echo "... QTserver_autogen/mocs_compilation.s"
-	@echo "... client.o"
-	@echo "... client.i"
-	@echo "... client.s"
+	@echo "... client/client.o"
+	@echo "... client/client.i"
+	@echo "... client/client.s"
 	@echo "... client_autogen/mocs_compilation.o"
 	@echo "... client_autogen/mocs_compilation.i"
 	@echo "... client_autogen/mocs_compilation.s"
-	@echo "... moc_DecodingWorker.o"
-	@echo "... moc_DecodingWorker.i"
-	@echo "... moc_DecodingWorker.s"
-	@echo "... moc_ReceptionWorker.o"
-	@echo "... moc_ReceptionWorker.i"
-	@echo "... moc_ReceptionWorker.s"
-	@echo "... moc_RenderingWorker.o"
-	@echo "... moc_RenderingWorker.i"
-	@echo "... moc_RenderingWorker.s"
-	@echo "... server.o"
-	@echo "... server.i"
-	@echo "... server.s"
+	@echo "... server/moc_DecodingWorker.o"
+	@echo "... server/moc_DecodingWorker.i"
+	@echo "... server/moc_DecodingWorker.s"
+	@echo "... server/moc_ReceptionWorker.o"
+	@echo "... server/moc_ReceptionWorker.i"
+	@echo "... server/moc_ReceptionWorker.s"
+	@echo "... server/moc_RenderingWorker.o"
+	@echo "... server/moc_RenderingWorker.i"
+	@echo "... server/moc_RenderingWorker.s"
+	@echo "... server/server.o"
+	@echo "... server/server.i"
+	@echo "... server/server.s"
 .PHONY : help
 
 

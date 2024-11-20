@@ -9,9 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "client_autogen/timestamp" "custom" "client_autogen/deps"
-  "/home/badr-eddine/StreamAPP2/Decoder.cpp" "CMakeFiles/client.dir/Decoder.cpp.o" "gcc" "CMakeFiles/client.dir/Decoder.cpp.o.d"
-  "/home/badr-eddine/StreamAPP2/Encoder.cpp" "CMakeFiles/client.dir/Encoder.cpp.o" "gcc" "CMakeFiles/client.dir/Encoder.cpp.o.d"
-  "/home/badr-eddine/StreamAPP2/client.cpp" "CMakeFiles/client.dir/client.cpp.o" "gcc" "CMakeFiles/client.dir/client.cpp.o.d"
+  "/home/badr-eddine/StreamAPP2/client/client.cpp" "CMakeFiles/client.dir/client/client.cpp.o" "gcc" "CMakeFiles/client.dir/client/client.cpp.o.d"
   "/home/badr-eddine/StreamAPP2/build/client_autogen/mocs_compilation.cpp" "CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o.d"
   )
 

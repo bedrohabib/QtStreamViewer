@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o CMakeFiles/client.dir/client.cpp.o CMakeFiles/client.dir/Encoder.cpp.o CMakeFiles/client.dir/Decoder.cpp.o -o client  -lavcodec -lavformat -lavutil -lswscale 
+/usr/bin/c++ CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o CMakeFiles/client.dir/client/client.cpp.o -o client  -lavcodec -lavformat -lavutil -lswscale 

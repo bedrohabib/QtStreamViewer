@@ -89,65 +89,33 @@ CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/badr-eddine/StreamAPP2/build/client_autogen/mocs_compilation.cpp -o CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/client.dir/client.cpp.o: CMakeFiles/client.dir/flags.make
-CMakeFiles/client.dir/client.cpp.o: /home/badr-eddine/StreamAPP2/client.cpp
-CMakeFiles/client.dir/client.cpp.o: CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/StreamAPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/client.dir/client.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/client.cpp.o -MF CMakeFiles/client.dir/client.cpp.o.d -o CMakeFiles/client.dir/client.cpp.o -c /home/badr-eddine/StreamAPP2/client.cpp
+CMakeFiles/client.dir/client/client.cpp.o: CMakeFiles/client.dir/flags.make
+CMakeFiles/client.dir/client/client.cpp.o: /home/badr-eddine/StreamAPP2/client/client.cpp
+CMakeFiles/client.dir/client/client.cpp.o: CMakeFiles/client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/StreamAPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/client.dir/client/client.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/client/client.cpp.o -MF CMakeFiles/client.dir/client/client.cpp.o.d -o CMakeFiles/client.dir/client/client.cpp.o -c /home/badr-eddine/StreamAPP2/client/client.cpp
 
-CMakeFiles/client.dir/client.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/client.dir/client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/badr-eddine/StreamAPP2/client.cpp > CMakeFiles/client.dir/client.cpp.i
+CMakeFiles/client.dir/client/client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/client.dir/client/client.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/badr-eddine/StreamAPP2/client/client.cpp > CMakeFiles/client.dir/client/client.cpp.i
 
-CMakeFiles/client.dir/client.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/client.dir/client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/badr-eddine/StreamAPP2/client.cpp -o CMakeFiles/client.dir/client.cpp.s
-
-CMakeFiles/client.dir/Encoder.cpp.o: CMakeFiles/client.dir/flags.make
-CMakeFiles/client.dir/Encoder.cpp.o: /home/badr-eddine/StreamAPP2/Encoder.cpp
-CMakeFiles/client.dir/Encoder.cpp.o: CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/StreamAPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/client.dir/Encoder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/Encoder.cpp.o -MF CMakeFiles/client.dir/Encoder.cpp.o.d -o CMakeFiles/client.dir/Encoder.cpp.o -c /home/badr-eddine/StreamAPP2/Encoder.cpp
-
-CMakeFiles/client.dir/Encoder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/client.dir/Encoder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/badr-eddine/StreamAPP2/Encoder.cpp > CMakeFiles/client.dir/Encoder.cpp.i
-
-CMakeFiles/client.dir/Encoder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/client.dir/Encoder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/badr-eddine/StreamAPP2/Encoder.cpp -o CMakeFiles/client.dir/Encoder.cpp.s
-
-CMakeFiles/client.dir/Decoder.cpp.o: CMakeFiles/client.dir/flags.make
-CMakeFiles/client.dir/Decoder.cpp.o: /home/badr-eddine/StreamAPP2/Decoder.cpp
-CMakeFiles/client.dir/Decoder.cpp.o: CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/StreamAPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/client.dir/Decoder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/Decoder.cpp.o -MF CMakeFiles/client.dir/Decoder.cpp.o.d -o CMakeFiles/client.dir/Decoder.cpp.o -c /home/badr-eddine/StreamAPP2/Decoder.cpp
-
-CMakeFiles/client.dir/Decoder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/client.dir/Decoder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/badr-eddine/StreamAPP2/Decoder.cpp > CMakeFiles/client.dir/Decoder.cpp.i
-
-CMakeFiles/client.dir/Decoder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/client.dir/Decoder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/badr-eddine/StreamAPP2/Decoder.cpp -o CMakeFiles/client.dir/Decoder.cpp.s
+CMakeFiles/client.dir/client/client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/client.dir/client/client.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/badr-eddine/StreamAPP2/client/client.cpp -o CMakeFiles/client.dir/client/client.cpp.s
 
 # Object files for target client
 client_OBJECTS = \
 "CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/client.dir/client.cpp.o" \
-"CMakeFiles/client.dir/Encoder.cpp.o" \
-"CMakeFiles/client.dir/Decoder.cpp.o"
+"CMakeFiles/client.dir/client/client.cpp.o"
 
 # External object files for target client
 client_EXTERNAL_OBJECTS =
 
 client: CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o
-client: CMakeFiles/client.dir/client.cpp.o
-client: CMakeFiles/client.dir/Encoder.cpp.o
-client: CMakeFiles/client.dir/Decoder.cpp.o
+client: CMakeFiles/client.dir/client/client.cpp.o
 client: CMakeFiles/client.dir/build.make
 client: CMakeFiles/client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/badr-eddine/StreamAPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/badr-eddine/StreamAPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
