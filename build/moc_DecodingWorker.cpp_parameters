@@ -1,0 +1,4 @@
+-I/usr/include/x86_64-linux-gnu
+-o
+/home/badr-eddine/StreamAPP2/build/moc_DecodingWorker.cpp
+/home/badr-eddine/StreamAPP2/DecodingWorker.h
